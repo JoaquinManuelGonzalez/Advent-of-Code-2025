@@ -1,4 +1,4 @@
-with open('./day_1/puzzle_input.txt', 'r') as f:
+with open('./day_01/puzzle_input.txt', 'r') as f:
     puzzle_input = f.read()
 
 dial = 50

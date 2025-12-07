@@ -16,7 +16,7 @@ def is_invalid(num: int) -> bool:
     return False
 
 
-with open('./day_2/puzzle_input.txt', 'r') as f:
+with open('./day_02/puzzle_input.txt', 'r') as f:
     puzzle_input = f.read().strip()
 
 invalid_sum = 0

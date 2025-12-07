@@ -7,7 +7,7 @@ def is_invalid(num: int) -> bool:
     mid = len(num_str) // 2
     return num_str[:mid] == num_str[mid:]
 
-with open('./day_2/puzzle_input.txt', 'r') as f:
+with open('./day_02/puzzle_input.txt', 'r') as f:
     puzzle_input = f.read()
 
 invalid_sum = 0
